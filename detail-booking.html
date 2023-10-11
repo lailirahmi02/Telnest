@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajukan Pemesanan</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./Aset/favicon.ico" type="image/x-icon">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <div id="logged">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./Aset/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="./booking-page.html">Booking</a>
+                        <a class="nav-link" href="./lokasi-page.html">Lokasi</a>
+                        <a class="nav-link" href="./cek-page.html">Cek Order</a>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <b>Hi, Adam!</b> <img src="./Aset/ic-profil.png" alt="">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./index.html">Log Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar -->
+
+    <!-- breadcrumb -->
+    <nav aria-label="breadcrumb">
+        <div class="container mt-3">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#"><span class="iconify" data-icon="iconoir:nav-arrow-left"></span>
+                        kembali </a></li>
+                <li class="breadcrumb-item"><a href="./detail-page.html"><span class="iconify"
+                            data-icon="iconoir:nav-arrow-left"></span>Detail Hotel</a></li>
+                <li class="breadcrumb-item"><a href="./order-page.html"><span class="iconify"
+                            data-icon="iconoir:nav-arrow-left"></span>Pilih Kamar</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Ajukan Pemesanan</li>
+            </ol>
+        </div>
+    </nav>
+    <!-- breadcrumb -->
+
+    <!-- detail booking -->
+    <div id="detail booking">
+        <div class="container mt-5">
+            <!-- Informasi user -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Informasi Anda</h3>
+
+                    <!-- form -->
+                    <form action="">
+                        <div class="row mt-3">
+                            <div class="col-lg-6">
+                                <label for="nama-lengkap" class="">
+                                    <h6>Nama Lengkap</h6>
+                                </label>
+                                <input type="text" class="form-control mt-2" placeholder="Masukkan Nama Lengkap">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="nomor-telepon" class="">
+                                    <h6>Nomor Telepon</h6>
+                                </label>
+                                <input type="text" class="form-control mt-2" placeholder="Masukkan Nomor Telepon">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-lg-6">
+                                <label for="email" class="">
+                                    <h6>Email</h6>
+                                </label>
+                                <input type="text" class="form-control mt-2" placeholder="Masukkan Email">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="password" class="">
+                                    <h6>Metode Pembayaran</h6>
+                                </label>
+                                <div class="dropdown mt-2">
+                                    <button class="btn btn-outline-primary dropdown-toggle w-100" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pilih Metode Pembayaran
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Transfer Bank</a></li>
+                                        <li><a class="dropdown-item" href="#">Gopay</a></li>
+                                        <li><a class="dropdown-item" href="#">Indomaret</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-check mt-3">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Data Sudah Benar
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- detail biaya -->
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <h3>Detail Biaya</h3>
+                    <form action="">
+                        <div class="row mt-3">
+                            <div class="col-lg-6">
+                                <label for="check in"><h6>Check In</h6></label>
+                                <input type="date" name="" id="" class="form-control">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="check out"><h6>Check Out</h6></label>
+                                <input type="date" name="" id="" class="form-control">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mb-3 mt-3" style="max-width: 100%;">
+                                <div class="row g-0">
+                                  <div class="col-md-4">
+                                    <img src="./Aset/kamar1.png" class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Deluxe Room</h5>
+                                      <div class="row">
+                                        <div class="col-lg-6">
+                                            <h6>Check In</h6>
+                                            <h6 class="text-primary">26/03/2023</h6>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h6>Check Out</h6>
+                                            <h6 class="text-primary">27/03/2023</h6>
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col">
+                                            <h6>Biaya</h6>
+                                            <h6 class="text-primary">IDR 200.000</h6>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <a href="./sukses-page.html" class="btn btn-primary w-100 mt-3">Pesan Sekarang</a>
+                    <p class="text-secondary">*Pastikan semua data sudah benar sebelum klik tombol pesan!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- detail booking -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container mt-5 mb-5">
+            <hr>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="./Aset/logo.png" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <h6>&copy; Copyright, Telnest 2023</h6>
+                </div>
+                <div class="col-lg-4 end">
+                    <img src="./Aset/ic-getplayapp.png" alt="" class="app-img">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+</body>
+
+</html>

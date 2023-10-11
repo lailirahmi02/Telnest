@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Order</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Berhasil!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajukan Pemesanan</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./Aset/favicon.ico" type="image/x-icon">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <div id="logged">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./Aset/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="./booking-page.html">Booking</a>
+                        <a class="nav-link" href="./lokasi-page.html">Lokasi</a>
+                        <a class="nav-link" href="./cek-page.html">Cek Order</a>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <b>Hi, Adam!</b> <img src="./Aset/ic-profil.png" alt="">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./index.html">Log Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar -->
+
+    <!-- cek-order -->
+    <!-- cek order -->
+    <div id="cek-order">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-7">
+                    <h5>Pesananmu</h5>
+                    <!-- menu -->
+                    <ul class="nav nav-pills mb-3 mt-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-diproses-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-diproses" type="button" role="tab" aria-controls="pills-diproses"
+                                aria-selected="true">Diproses</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-selesai-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-selesai" type="button" role="tab" aria-controls="pills-selesai"
+                                aria-selected="false">Selesai</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-diproses" role="tabpanel"
+                        aria-labelledby="pills-diproses-tab" tabindex="0">
+                            <!-- card-diproses -->
+                            <div class="card mb-3 mt-3" style="max-width: 100%;">
+                                <div class="row g-0">
+                                  <div class="col-md-4">
+                                    <img src="./Aset/kamar1.png" class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Deluxe Room</h5>
+                                      <p class="nama-hotel text-secondary">Amaris Hotel Palembang</p>
+                                      <div class="row">
+                                        <div class="col-lg-6">
+                                            <h6>Check In</h6>
+                                            <h6 class="text-primary">26/03/2023</h6>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h6>Check Out</h6>
+                                            <h6 class="text-primary">27/03/2023</h6>
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-lg-6">
+                                            <h6>Biaya</h6>
+                                            <h6 class="text-primary">IDR 200.000</h6>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h6>Status</h6>
+                                            <h6 class="text-warning">Menunggu Pembayaran</h6>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <!-- card-diproses -->
+                        </div>
+                        <div class="tab-pane fade" id="pills-selesai" role="tabpanel"
+                        aria-labelledby="pills-profile-tab" tabindex="0">
+                    <!-- card-selesai -->
+                    <div class="card mb-3 mt-3" style="max-width: 100%;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="./Aset/kamar1.png" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Deluxe Room</h5>
+                              <p class="nama-hotel text-secondary">Amaris Hotel Palembang</p>
+                              <div class="row">
+                                <div class="col-lg-6">
+                                    <h6>Check In</h6>
+                                    <h6 class="text-primary">26/03/2023</h6>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h6>Check Out</h6>
+                                    <h6 class="text-primary">27/03/2023</h6>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-6">
+                                    <h6>Biaya</h6>
+                                    <h6 class="text-primary">IDR 200.000</h6>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h6>Status</h6>
+                                    <h6 class="text-success">Selesai</h6>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- card-selesai -->
+                    </div>
+                    </div>
+                    <!-- menu -->
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- footer -->
+<footer>
+    <div class="container mt-5 mb-5">
+        <hr>
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="./Aset/logo.png" alt="">
+            </div>
+            <div class="col-lg-4">
+                <h6>&copy; Copyright, Telnest 2023</h6>
+            </div>
+            <div class="col-lg-4 end">
+                <img src="./Aset/ic-getplayapp.png" alt="" class="app-img">
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer -->
+</body>
+
+</html>

@@ -1,0 +1,387 @@
+/* navbar */
+.navbar .navbar-brand img {
+  width: 120px;
+}
+
+.navbar .navbar-nav {
+  margin-left: auto;
+}
+
+.navbar .nav-link {
+  margin-right: 30px;
+}
+.navbar .navbar-nav .btn {
+  width: 130px;
+}
+/* navbar */
+
+/* navbar-logged */
+#logged .navbar-nav {
+  margin-left: 0;
+}
+#logged .dropdown {
+  border: none;
+  margin-left: auto;
+}
+#logged .dropdown img {
+  width: 30%;
+  margin-left: 10px;
+}
+/* navbar-logged */
+
+/* hero */
+#hero h1 {
+  margin-top: 200px;
+}
+#hero img {
+  width: 75%;
+}
+
+/* hotel */
+
+#hotel .more {
+  display: flex;
+  justify-content: end;
+}
+#hotel .card .btn {
+  width: 100%;
+}
+#hotel .card small {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* hotel */
+
+/* kota */
+#kota .more {
+  display: flex;
+  justify-content: end;
+}
+
+#kota .card {
+  border: none;
+}
+
+#kota .card .card-title {
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+}
+/* kota */
+
+/* promo */
+#promo img {
+  width: 100%;
+}
+/* promo */
+
+/* artikel */
+#artikel img {
+  width: 100%;
+}
+#artikel .app-img {
+  width: 350px;
+}
+#artikel h1 {
+  margin-top: 250px;
+}
+/* artikel */
+
+/* daftar-page */
+#daftar img {
+  width: 80%;
+}
+#daftar form .btn {
+  width: 130px;
+}
+/* daftar-page */
+
+/* login-page */
+#login img {
+  width: 80%;
+}
+/* login-page */
+
+/* booking-page */
+#rekomendasi .card .btn {
+  width: 100%;
+}
+#rekomendasi .card small {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* booking-page */
+
+/* beradcrumb */
+.breadcrumb a {
+  text-decoration: none;
+}
+
+/* detail hotel */
+#detail-hotel img {
+  width: 100%;
+}
+#detail-hotel .btn {
+  width: 100%;
+}
+/* detail hotel */
+
+#login form .btn {
+  width: 130px;
+}
+/* sukses-page */
+#sukses .img-metodebayar {
+  width: 120px;
+  margin-bottom: 10px;
+}
+#sukses .img-sukses {
+  width: 100%;
+}
+/* sukses-page */
+/* cek-order */
+#cek-order .nav-link {
+  margin-right: 20px;
+}
+#cek-order {
+  margin-bottom: 250px;
+}
+
+/* footer */
+footer .row {
+  display: flex;
+  align-items: center;
+}
+footer img {
+  width: 120px;
+}
+footer .app-img {
+  width: 350px;
+}
+footer .end {
+  display: flex;
+  justify-content: end;
+}
+/* footer */
+
+/* mobile responsive */
+@media (max-width: 992px) {
+  /* navbar */
+  .navbar {
+    text-align: center;
+  }
+  .navbar .navbar-brand img {
+    width: 120px;
+  }
+
+  .navbar .navbar-nav {
+    margin-left: auto;
+  }
+
+  .navbar .nav-link {
+    margin-right: 0;
+  }
+  .navbar .navbar-nav .btn {
+    width: 130px;
+    margin: auto;
+  }
+  /* navbar */
+
+  /* navbar-logged */
+  #logged .navbar-nav {
+    margin-left: 0;
+  }
+  #logged .dropdown {
+    border: none;
+    margin-left: auto;
+  }
+  #logged .dropdown img {
+    width: 30%;
+    margin-left: 10px;
+  }
+  /* navbar-logged */
+
+  /* hero */
+  #hero {
+    text-align: center;
+  }
+  #hero h1 {
+    margin-top: 30px;
+  }
+  #hero img {
+    width: 100%;
+  }
+
+  /* hotel */
+  #hotel {
+    text-align: center;
+  }
+  #hotel .more {
+    display: flex;
+    justify-content: center;
+  }
+
+  #hotel .card {
+    margin-bottom: 20px;
+  }
+  #hotel .card .btn {
+    width: 100%;
+  }
+  #hotel .card small {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  /* hotel */
+
+  /* kota */
+  #kota {
+    text-align: center;
+  }
+  #kota .more {
+    display: flex;
+    justify-content: center;
+  }
+
+  #kota .card {
+    border: none;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+
+  #kota .card .card-title {
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+  }
+  /* kota */
+
+  /* promo */
+  #promo img {
+    width: 100%;
+  }
+  /* promo */
+
+  /* artikel */
+  #artikel img {
+    width: 70%;
+  }
+  #artikel {
+    text-align: center;
+  }
+  #artikel .app-img {
+    width: 250px;
+  }
+  #artikel h1 {
+    margin-top: 30px;
+  }
+  /* artikel */
+
+  /* daftar-page */
+  #daftar img {
+    width: 80%;
+  }
+  #daftar form .btn {
+    width: 130px;
+  }
+  /* daftar-page */
+
+  /* login-page */
+  #login img {
+    width: 80%;
+  }
+  /* login-page */
+
+  /* booking-page */
+  #cari-hotel {
+    text-align: center;
+  }
+  #rekomendasi {
+    text-align: center;
+  }
+  #rekomendasi .card {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #rekomendasi .card .btn {
+    width: 100%;
+  }
+  #rekomendasi .card small {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  /* booking-page */
+
+  /* breadcrumb */
+  .breadcrumb a {
+    text-decoration: none;
+  }
+
+  /* detail hotel */
+  #detail-hotel img {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  #detail-hotel .btn {
+    width: 100%;
+  }
+  /* detail hotel */
+
+  #login form .btn {
+    width: 130px;
+  }
+  /* pilih kamar */
+  #pilih-kamar .card img {
+    width: 100%;
+  }
+  /* pilih kamar */
+  /* detail booking */
+  #detal-booking .card img{
+    width: 100%;
+  }
+  /* detail booking */
+  /* sukses-page */
+  #sukses .img-metodebayar {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  #sukses .img-sukses {
+    width: 100%;
+  }
+  /* sukses-page */
+  /* cek-order */
+  #cek-order .nav-link {
+    margin-right: 20px;
+  }
+  #cek-order .card img{
+    width: 100%;
+  }
+  #cek-order {
+    margin-bottom: 250px;
+  }
+
+  /* footer */
+  footer {
+    text-align: center;
+  }
+  footer .row {
+    display: flex;
+    align-items: center;
+  }
+  footer img {
+    width: 120px;
+  }
+  footer .app-img {
+    width: 250px;
+  }
+  footer .end {
+    display: flex;
+    justify-content: center;
+  }
+  /* footer */
+}
+/* mobile responsive */
